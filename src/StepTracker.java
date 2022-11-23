@@ -53,7 +53,7 @@ public class StepTracker {
         }
         if (stepsCount.containsKey(month)) {
             stepsCount.get(month).set((day - 1), steps);
-            System.out.println("Данные сохранены");
+            System.out.println("Данные успешно сохранены");
         } else {
             System.out.println("Название месяца введено неверно");
         }
